@@ -554,8 +554,10 @@ $document.ready(function () {
     function scrollFunction() {
         if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
             document.getElementById("js-header-name").classList.add('gradi-text')
+			document.getElementById("js-header-name2").classList.add('gradi-text')
         } else {
             document.getElementById("js-header-name").classList.remove('gradi-text')
+            document.getElementById("js-header-name2").classList.remove('gradi-text')
         }
     }
 });
